@@ -14,7 +14,8 @@ class List extends React.Component {
               return(
                 <li key={index}>{item}</li>
               );
-            } 
+            }
+            return null;
           })
         }
       </ul>

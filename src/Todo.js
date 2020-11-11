@@ -30,7 +30,7 @@ class Todo extends React.Component {
   }
 
   render() {
-    console.error(this.props);
+
     return(
       <div>
         <InputField inputValue={this.state.inputValue} handleClick={this.handleClick} handleChange={this.handleChange} />
